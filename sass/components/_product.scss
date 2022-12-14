@@ -1,13 +1,12 @@
 .product {
   &__list {
-    max-width: 767px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
   }
   &__item {
     margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    max-width: calc(100vw - (15px * 2));
+    flex-basis: calc((100% - 30px * 2) / 3);
   }
   &__link {
     display: block;
@@ -28,7 +27,8 @@
     overflow: hidden;
   }
   &__card {
-    width: calc(100vw - (15px * 2));
+    display: block;
+    max-width: auto;
     height: auto;
   }
   &__overlay {
@@ -73,41 +73,5 @@
     margin-bottom: 0;
     font-size: 16px;
     line-height: 1.9;
-  }
-  @media screen and (min-width: 768px) {
-    &__item:first-child .product__element {
-      padding-bottom: 55px;
-    }
-    &__list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-    }
-
-    &__item {
-      margin: 0;
-      width: calc((100vw - 2 * 30px) / 2);
-    }
-    &__card {
-      width: calc((100vw - 2 * 30px) / 2);
-    }
-  }
-  @media screen and (min-width: 1200px) {
-    &__item:first-child .product__element {
-      padding-bottom: 19px;
-    }
-    &__list {
-      max-width: 1170px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-    }
-    &__item {
-      margin: 0;
-      width: calc((100vw - 3 * 30px) / 3);
-    }
-    &__card {
-      width: calc((100vw - 3 * 30px) / 3);
-    }
   }
 }

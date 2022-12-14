@@ -1,19 +1,23 @@
+// utils styles
+@import './utils/variables';
+// base styles
+@import './base/base';
+// @import './base/reset';
+// components styles
 @import '../sass/components/section';
 @import '../sass/components/container';
-@import '../sass/utils/vars';
-@import '../sass/components/general';
 @import '../sass/components/logo';
-@import '../sass/components/social-network';
+@import '../sass/components/social';
 @import '../sass/components/btn';
-@import '../sass/components/header';
+@import '../sass/components/page-header';
 @import '../sass/components/menu';
 @import '../sass/components/hero';
 @import '../sass/components/modal';
 @import '../sass/components/form';
 @import '../sass/components/features';
-@import '../sass/components/work';
-@import '../sass/components/team';
-@import '../sass/components/client';
+@import '../sass/components/sect-work';
+@import '../sass/components/sect-team';
+@import '../sass/components/sect-client';
 @import '../sass/components/filter';
 @import '../sass/components/product';
 @import '../sass/components/footer';
