@@ -1,25 +1,19 @@
-// utils styles
-@import './utils/variables';
-@import './utils/visually-hidden';
-@import './utils/placeholders';
-
-// base styles
-@import './base/base';
-@import './base/reset';
-
-// components styles
-@import './components/section';
-@import './components/conteiner';
-@import './components/typography';
-@import './components/button';
-@import './components/page-header';
-@import './components/logo';
-@import './components/modal';
-@import './components/hero';
-@import './components/sect-features';
-@import './components/sect-work';
-@import './components/sect-team';
-@import './components/sect-client';
-@import './components/sect-filter';
-@import './components/sect-portfolio';
-@import './components/footer';
+@import '../sass/components/section';
+@import '../sass/components/container';
+@import '../sass/utils/vars';
+@import '../sass/components/general';
+@import '../sass/components/logo';
+@import '../sass/components/social-network';
+@import '../sass/components/btn';
+@import '../sass/components/header';
+@import '../sass/components/menu';
+@import '../sass/components/hero';
+@import '../sass/components/modal';
+@import '../sass/components/form';
+@import '../sass/components/features';
+@import '../sass/components/work';
+@import '../sass/components/team';
+@import '../sass/components/client';
+@import '../sass/components/filter';
+@import '../sass/components/product';
+@import '../sass/components/footer';
